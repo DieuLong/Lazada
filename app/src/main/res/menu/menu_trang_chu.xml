@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/itSearch"
+        android:title="Search"
+        android:icon="@drawable/ic_search_white"
+        app:showAsAction="always"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/itGioHang"
+        android:title="Shopping Cart"
+        android:icon="@drawable/ic_shopping_cart_white"
+        app:showAsAction="always"
+        android:visible="true"
+        app:actionLayout="@layout/custom_item_gio_hang"
+        />
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert"
+        >
+        <menu>
+            <item
+                android:id="@+id/itDangNhap"
+                android:title="Đăng nhập"
+                android:icon="@drawable/ic_sentiment_neutral"
+                />
+            <item
+                android:id="@+id/itThongBao"
+                android:title="Thông báo"
+                android:icon="@drawable/ic_notifications_none"
+                />
+            <item
+                android:id="@+id/itMongMuon"
+                android:title="Mong muốn"
+                android:icon="@drawable/ic_favorite_border"
+                />
+            <item
+                android:id="@+id/itDonHangCuaToi"
+                android:title="Đơn hàng của tôi"
+                android:icon="@drawable/ic_content_paste"
+                />
+            <item
+                android:id="@+id/itCaiDta"
+                android:title="Cài đặt"
+                android:icon="@drawable/ic_settings"
+                />
+            <item
+                android:id="@+id/itChinhSach"
+                android:title="Chính sách"
+                android:icon="@drawable/ic_event_note"
+                />
+            <item
+                android:id="@+id/itTroGiup"
+                android:title="Trợ giúp"
+                android:icon="@drawable/ic_help_outline"
+                />
+
+        </menu>
+    </item>
+</menu>
